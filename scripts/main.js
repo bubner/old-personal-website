@@ -1,10 +1,12 @@
-document.addEventListener('DOMContentLoaded', (function () {
+document.addEventListener('DOMContentLoaded', (() => {
     new particleground(document.getElementById('animations'), {
         dotColor: '#ed1c24',
         lineColor: '#f55860'
     });
     let intro = document.getElementById('main_body');
-    intro.style.marginTop = -intro.offsetHeight / 2 + 'px';
+    setTimeout(() => {
+        intro.style.marginTop = -intro.offsetHeight / 2 + 'px';
+    }, 100);
 }), false);
 
 class textSwitcher {
