@@ -13,6 +13,16 @@ body {
     overflow: hidden;
 }
 
+.bg {
+    opacity: 0.4;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: auto;
+    height: 100%;
+}
+  
+
 body {
     background: #000;
     font-family: 'Montserrat', sans-serif;
