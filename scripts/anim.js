@@ -153,7 +153,7 @@
                 particles.splice(numParticles);
             }
 
-            for (i = particles.length - 1; i >= 0; i--) {
+            for (let i = particles.length - 1; i >= 0; i--) {
                 particles[i].setStackPos(i);
             }
 
