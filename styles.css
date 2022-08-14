@@ -4,6 +4,7 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    user-select: none;
 }
 
 html,
@@ -67,21 +68,13 @@ body {
     text-align: center;
 }
 
-.body_class img {
-    width: 10vw;
-    border-radius: 50%;
-}
-
 .body_class a {
     font-size: 1.3rem;
     padding: 10px;
 }
 
-.body_class a:hover {
-    font-size: 1.2rem;
-    color: white;
-    cursor: pointer;
-    transition: 0.4s;
+.body_class img {
+    transform: translateY(4px);
 }
 
 #pfp {
@@ -89,8 +82,8 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-    .body_class img {
-        width: 30%;
+    #pfp {
+        width: 30% !important;
         border-radius: 50%;
     }
 
@@ -101,8 +94,8 @@ body {
 }
 
 @media screen and (max-width: 1024px) {
-    .body_class img {
-        width: 25%;
+    #pfp {
+        width: 25% !important;
         border-radius: 50%;
     }
 
