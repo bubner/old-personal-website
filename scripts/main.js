@@ -3,10 +3,6 @@ document.addEventListener('DOMContentLoaded', (() => {
         dotColor: '#ed1c24',
         lineColor: '#f55860'
     });
-    let intro = document.getElementById('main_body');
-    setTimeout(() => {
-        intro.style.marginTop = -intro.offsetHeight / 2 + 'px';
-    }, 100);
 }), false);
 
 class textSwitcher {

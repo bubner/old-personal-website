@@ -23,6 +23,9 @@ body {
     height: 100%;
 }
   
+#main_body {
+    margin-top: -25vh;
+}
 
 body {
     background: #000;
