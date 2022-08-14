@@ -157,7 +157,6 @@
                 particles[i].setStackPos(i);
             }
 
-            ;
         }
         function pause() {
             paused = true;
