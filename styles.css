@@ -73,20 +73,6 @@ body {
     border-radius: 50%;
 }
 
-hr {
-    width: 50%;
-    background-color: #1D2951;
-    border-color: #1D2951;
-}
-
-a {
-    color: white;
-}
-
-a i {
-    font-size: 2em;
-}
-
 @media screen and (max-width: 768px) {
     .body_class img {
         width: 30%;
