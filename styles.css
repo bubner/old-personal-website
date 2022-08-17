@@ -73,8 +73,9 @@ body {
     padding: 10px;
 }
 
-.body_class img {
-    transform: translateY(4px);
+.body_class img:hover {
+    transform: translateY(-5px);
+    transition: transform 0.2s;
 }
 
 #pfp {
