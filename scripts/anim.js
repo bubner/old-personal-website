@@ -77,8 +77,6 @@
                 particles.push(p);
             }
 
-            ;
-
             _W.addEventListener('resize', function () {
                 resizeHandler();
             }, false);
@@ -333,7 +331,6 @@
             console.log('destroy');
             canvas.parentNode.removeChild(canvas);
             hook('onDestroy');
-            ;
         }
 
         function hook(hookName) {
