@@ -1,4 +1,7 @@
-/** Top-level rendering module */
+/**
+ * Top-level rendering module.
+ * @author Lucas Bubner, 2023
+ */
 
 import React from 'react';
 import ReactDOM from 'react-dom/client';
