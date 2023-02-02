@@ -10,6 +10,7 @@ function App() {
     const [isWritten, setIsWritten] = useState(false);
 
     useEffect(() => {
+        if (!isWritten) return;
         const script = document.createElement("script");
         script.src = "/stars.js";
         document.body.appendChild(script);
